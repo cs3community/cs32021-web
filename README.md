@@ -6,11 +6,10 @@ Before hacking you need to install [Hugo extended version](https://github.com/go
 run `npm install postcss-cli` only if you plan to hack on the theme style.
 
 ```
-git clone https://github.com/sciencemesh/sciencemesh
-cd sciencemesh
+git clone https://github.com/cs3community/cs32021
+cd cs32021
 git submodule update --init --recursive # to install the theme and deps
-cd docs
-hugo server
+hugo serve
 ```
 
 Open a browser at http://localhost:1313
